@@ -72,9 +72,9 @@ npm start
 ### POST api/identify
 
 ### Request
-{
-  "email": "docbrown@fluxkart.com",
-  "phoneNumber": "1234567890"
+{<br>
+  "email": "docbrown@fluxkart.com",<br>
+  "phoneNumber": "1234567890"<br>
 }
 
 
