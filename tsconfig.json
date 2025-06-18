@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "outDir": "dist", // 👈 Compiled files go here
+    "rootDir": "src",
     "target": "ES2020",
     "module": "commonjs",
     "moduleResolution": "node",
@@ -8,6 +10,6 @@
     "strict": true
   },
   "include": [
-    "src/**/*"
+    "src"
   ],
 }
