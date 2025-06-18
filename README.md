@@ -29,8 +29,8 @@ Doc Brown, like many other users, uses different combinations of contact info (e
 
 ## 📁 Project Structure
 
-├── src
-│ ├── bo # Business logic layer
+├── src<br>
+│ ├── bo # Business logic layer<br>
 │ ├── controller # API controller logic
 │ ├── dao # Data access logic (SQL queries)
 │ ├── models # TypeScript interfaces and DB models
@@ -56,8 +56,8 @@ cd bitespeed-contact-identification
 npm install
 
 ### 3. Configure environment
-Create a .env file in the root with:
-DB_HOST=localhost
+Create a .env file in the root with:<br>
+DB_HOST=localhost<br>
 DB_PORT=3306
 DB_USER=root
 DB_PASSWORD=your_password
