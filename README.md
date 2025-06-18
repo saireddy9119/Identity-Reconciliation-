@@ -31,15 +31,15 @@ Doc Brown, like many other users, uses different combinations of contact info (e
 
 ├── src<br>
 │ ├── bo # Business logic layer<br>
-│ ├── controller # API controller logic
-│ ├── dao # Data access logic (SQL queries)
-│ ├── models # TypeScript interfaces and DB models
-│ ├── routes # Express routes
-│ └── server.ts # Entry point
-├── .env # Environment variables
-├── tsconfig.json # TypeScript configuration
-├── package.json
-└── README.md
+│ ├── controller # API controller logic<br>
+│ ├── dao # Data access logic (SQL queries)<br>
+│ ├── models # TypeScript interfaces and DB models<br>
+│ ├── routes # Express routes<br>
+│ └── server.ts # Entry point<br>
+├── .env # Environment variables<br>
+├── tsconfig.json # TypeScript configuration<br>
+├── package.json<br>
+└── README.md<br>
 
 
 
@@ -58,11 +58,11 @@ npm install
 ### 3. Configure environment
 Create a .env file in the root with:<br>
 DB_HOST=localhost<br>
-DB_PORT=3306
-DB_USER=root
-DB_PASSWORD=your_password
-DB_NAME=contacts
-PORT=8085
+DB_PORT=3306<br>
+DB_USER=root<br>
+DB_PASSWORD=your_password<br>
+DB_NAME=contacts<br>
+PORT=8085<br>
 
 ### 4. Run the project
 npm start
