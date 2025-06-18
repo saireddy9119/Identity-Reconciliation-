@@ -34,4 +34,9 @@ export class IdentifyController {
             res.status(500).json({ success: false, message: errorMessage });
         }
     }
+
+    async helloMessage(req: Request, res: Response): Promise<void> {
+        console.log("Hello World")
+        res.status(200).json({ success: true, message: "Hello from Identify Controller!" });
+    }
 }
