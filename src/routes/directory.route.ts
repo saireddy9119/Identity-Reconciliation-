@@ -26,6 +26,6 @@ export default class DirectoryRoute {
      *  - POST /identify → used to identify or link user contacts
      */
         this._router.post("/identify", this.identifyController.identifyUser);
-        this._router.post("/", this.identifyController.helloMessage);
+        this._router.get("/", this.identifyController.helloMessage);
     }
 }
