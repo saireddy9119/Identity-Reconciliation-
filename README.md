@@ -78,5 +78,31 @@ npm start
 }
 
 
+🚀 Deployment on AWS (EC2)
+To deploy this project on an AWS EC2 instance, follow these steps:
+
+### ✅ Prerequisites
+AWS account with an EC2 instance (Ubuntu recommended)
+
+Node.js, npm, and Git installed on the instance
+
+Security group open for necessary ports (e.g., 8085)<br>
+
+### 📦 Steps
+
+1.Connect to your EC2 instance<br>
+2.Clone this repository - git clone https://github.com/your-username/your-repo-name.git<br>
+3.Install dependencies - npm install<br>
+4.Build the project - npm run build<br>
+5.Start the application - node dist/server.js<br>
+6.Configure the EC2 security group to allow access to the port your app is running on - http://your-ec2-public-ip:your-app-port<br>
+
+
+
+
+
+
+
+
 
 
